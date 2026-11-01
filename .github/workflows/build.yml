@@ -30,3 +30,5 @@ jobs:
           path: build/libs/*.jar
           if-no-files-found: error
           retention-days: 30
+
+# Trigger build after Actions was enabled.
