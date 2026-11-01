@@ -1,16 +1,13 @@
 {
-	"required": true,
-	"package": "bura.com.mixin",
-	"compatibilityLevel": "JAVA_21",
-	"mixins": [
-		"ChunkGenThrottleMixin",
-		"ExampleMixin",
-		"MobEntityAiSkipMixin"
-	],
-	"injectors": {
-		"defaultRequire": 1
-	},
-	"overwrites": {
-		"requireAnnotations": true
-	}
+  "required": false,
+  "package": "bura.com.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "ChunkGenThrottleMixin",
+    "ExampleMixin",
+    "MobEntityAiSkipMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
 }

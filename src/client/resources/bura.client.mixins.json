@@ -1,16 +1,18 @@
 {
-	"required": true,
-	"package": "bura.com.mixin.client",
-	"compatibilityLevel": "JAVA_21",
-	"client": [
-		"ExampleClientMixin",
-		"BuraDebugOverlayMixin",
-		"BlockEntityThrottleMixin",
-		"ChunkUploadThrottleMixin",
-		"MinecraftTickThrottleMixin",
-		"ParticleEngineThrottleMixin"
-	],
-	"injectors": {
-		"defaultRequire": 1
-	}
+  "required": false,
+  "package": "bura.com.mixin.client",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "ExampleClientMixin",
+    "BuraDebugOverlayMixin",
+    "BlockEntityThrottleMixin",
+    "ChunkUploadThrottleMixin",
+    "MinecraftTickThrottleMixin",
+    "ParticleEngineThrottleMixin",
+    "LevelRendererCullingMixin",
+    "ChunkRebuildThrottleMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
 }
